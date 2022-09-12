@@ -1,0 +1,24 @@
+{
+  "name": "html-pages-preview",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Matin Andrey",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andreymatin/html-pages-preview.git"
+  },
+  "keywords": [
+    "html"
+  ],
+  "bugs": {
+    "url": "https://github.com/andreymatin/html-pages-preview/issues"
+  }
+}
