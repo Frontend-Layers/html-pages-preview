@@ -1,12 +1,12 @@
-var htmlPreview = require('./lib/merged-html-preview');
+import htmlPreview from './lib/merged-html-preview.js';
 
-var src = [
+const src = [
   './dist/article.html',
   './dist/home.html',
   './dist/product.html'
 ];
 
-var dest = './dist/preview.html';
+const dest = './dist/preview.html';
 
 
-htmlPreview(src, dest)
+htmlPreview(src, dest);

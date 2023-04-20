@@ -1,4 +1,2 @@
-'use strict';
-
-var htmlPreview = require('./lib/merged-html-preview');
-exports.htmlPreview = htmlPreview
+import htmlPreview from './lib/merged-html-preview.js';
+export default htmlPreview;

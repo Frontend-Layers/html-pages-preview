@@ -1,8 +1,9 @@
 {
   "name": "html-pages-preview",
-  "version": "1.0.0",
+  "version": "1.1.1",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "directories": {
     "lib": "lib"
   },
@@ -16,9 +17,21 @@
     "url": "git+https://github.com/andreymatin/html-pages-preview.git"
   },
   "keywords": [
-    "html"
+    "html",
+    "nodejs",
+    "gulp",
+    "html-base",
+    "automation",
+    "generator",
+    "previewer"
   ],
   "bugs": {
     "url": "https://github.com/andreymatin/html-pages-preview/issues"
+  },
+  "homepage": "https://github.com/andreymatin/html-pages-preview#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.22"
   }
 }
