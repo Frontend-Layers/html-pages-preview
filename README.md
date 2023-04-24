@@ -82,9 +82,14 @@ cfg = {
   toc: true,
   newtab: true,
   toggle: true,
+  animation: true,
   pane: true,
   title: true,
-  filename: true
+  titleDivider: '-',
+  filename: true,
+  baseUrl: '',
+  backToIndex: true,
+  backToIndexUrl: ''
 }
 
 htmlPreview(src, dest, cfg);
@@ -104,11 +109,6 @@ htmlPreview(src, dest, cfg);
 | baseUrl        | ./   | Base URL for pages (Default is destination folder) |
 | backToIndex    | true | show/hide back link |
 | backToIndexUrl | ''   | When empty default link is './index.html' |
-
-    baseUrl: '',
-    backToIndex: true,
-    backToIndexUrl: ''
-
 
 ## Related Projects
 
