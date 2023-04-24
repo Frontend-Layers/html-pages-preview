@@ -5,9 +5,10 @@ import htmlPreview from './index.js';
 
 const htmlPagesPreview = (c) => {
   const src = [
-    './dist/home.html',
-    './dist/article.html',
-    './dist/product.html'
+    './src/blog.html',
+    './src/pricing.html',
+    './src/no-page.html',
+    './src/product.html',
   ];
 
   const dest = './dist/preview.html';
@@ -17,7 +18,7 @@ const htmlPagesPreview = (c) => {
 };
 
 const watcher = () => {
-  watch('./dist/*.html', htmlPagesPreview);
+  watch('./src/*.html', htmlPagesPreview);
 };
 
 export default

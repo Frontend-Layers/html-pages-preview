@@ -90,16 +90,25 @@ cfg = {
 htmlPreview(src, dest, cfg);
 ```
 
-| Value    | Default | Description |
-|----------|---------|-------------|
-| styles   | ''      | custom CSS for header, panel etc. Initial styles based on bootstrap 5  |
-| header   | 'Pages Preview' | page header |
-| toc      | true | show/hide Table of the content |
-| newtab   | true | show/hide new tab link |
-| toggle   | true | show/hide toggle link |
-| pane     | true | show/hide panel with links and iframe title |
-| title    | true | show/hide panel title |
-| filename | true | show/hide filename at the panel title |
+| Value          | Default | Description |
+|----------------|---------|-------------|
+| styles         | ''      | custom CSS for header, panel etc. Initial styles based on bootstrap 5  |
+| header         | 'Pages Preview' | page header |
+| toc            | true | show/hide Table of the content |
+| newtab         | true | show/hide new tab link |
+| toggle         | true | show/hide toggle link |
+| pane           | true | show/hide panel with links and iframe title |
+| title          | true | show/hide panel title |
+| titleDivider   | -    | Divide filename and page tytle by symbol
+| filename       | true | show/hide filename at the panel title |
+| baseUrl        | ./   | Base URL for pages (Default is destination folder) |
+| backToIndex    | true | show/hide back link |
+| backToIndexUrl | ''   | When empty default link is './index.html' |
+
+    baseUrl: '',
+    backToIndex: true,
+    backToIndexUrl: ''
+
 
 ## Related Projects
 
